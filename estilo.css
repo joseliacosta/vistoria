@@ -1,0 +1,41 @@
+
+*{
+    font-family: "OpenSans", "Arial", sans-serif;
+}
+body{
+    width: 1170px;
+    margin: 0 auto;
+}
+header{
+    background-color: #153a35;
+    padding: 18px 0;
+    
+}
+
+.navegacao{
+    background: #0e524c;
+    color: #ffffff;
+    font-size: 16px;
+}
+.telefone{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 33px;
+    background: url(Shape-1.png) no-repeat;
+    
+}
+input[type=text],
+input[type=password],
+input[type=email]{
+    background: #e3e3e3;
+    border-radius: 3px;
+    
+}
+.btn-primary{
+    background-color: #d3a229;
+    border-color: none;
+    border-radius: 3px;
+    color:#0e524c;
+    
+}
