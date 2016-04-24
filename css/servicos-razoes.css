@@ -1,0 +1,49 @@
+.servicos-razoes{
+	background: #f2f2f2;
+	padding: 75px 0;
+}
+
+.servicos-razoes section h2{
+	font-size: 1.5rem;
+	color: #153a35;	
+}
+.motivo{
+	min-height: 109px;
+	padding-left: 136px;
+	margin: 33px 0;
+}
+
+.agilidade{
+	background: url(../img/agilidade.png)no-repeat top left;
+}
+
+.frota{
+	background: url(../img/frota.png)no-repeat top left;
+}
+
+.acidentes{
+	background:url(../img/acidentes.png)no-repeat top left;
+}
+
+.seguranca{
+	background: url(../img/seguranca.png)no-repeat top left;
+}
+
+.responsabilidade{
+	background: url(../img/resp-social.png)no-repeat top left;
+}
+
+.lucratividade{
+	background: url(../img/lucratividade.png) no-repeat top left;
+}
+.motivo h3{
+	font-size: 18px;
+	color: #0e524c;
+}
+
+.motivo p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #4f4f4f;
+}
+

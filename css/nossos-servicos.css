@@ -1,0 +1,57 @@
+.nossos-servicos{
+	background-color: #153a35;
+	padding: 55px 0;
+	
+}
+
+.nossos-servicos h2{
+	font-size: 1.5rem;
+	color: #d3a229;
+}
+
+.nossos-servicos p{
+	font-size: 1rem;
+	font-weight: 400;
+	color: #ffffff;
+	
+}
+.descricao{
+	max-width: 627px;
+	margin-top: 16px;
+	margin-bottom: 44px;
+}
+
+.panel{
+	background-color: #ffffff;
+	border-radius: 3px;
+	padding: 15px;
+}
+
+.panel h4{
+	font-size: 1rem;
+	font-weight: 700;
+	color: #0e524c;
+	padding: 10px 0 10px 48px;	
+}
+
+.panel p{
+	font-size: 1rem;
+	font-weight: 400;
+	color: #505050;
+	
+}
+.vistoria{
+	background: url(../img/vistoria.png)no-repeat center left;
+}
+.tecnica{
+	background: url(../img/tecnica.png)no-repeat center left;
+	
+}
+
+.corretiva{
+	background: url(../img/alerta.png)no-repeat center left;
+}
+
+.educador{
+	background: url(../img/Shape-9.png)no-repeat center left;
+}
