@@ -1,12 +1,17 @@
 .contato{
 	background: #f2f2f2;
+	border-bottom: #d3a229 solid 5px;
 }
 
+.contato .row{
+	display: flex;
+	align-items: center;
+}
 .descricao-orcamento{
-	
+	background: url(../img/telefone-orcamento.png)no-repeat center left;
+	padding: 20px 0 20px 114px;
 	
 }
-
 .descricao-orcamento h3{
 	font-size: 1.5rem;
 	color: #0e524c;
@@ -19,11 +24,7 @@
 	
 }
 
-.telefone-contato{
-	
 
-	
-}
 .contato .telefone-contato p{
 	color: #d3a229;
 	font-size: 48px;
@@ -32,9 +33,3 @@
 	
 }
 
-
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
-}
