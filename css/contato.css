@@ -1,40 +1,44 @@
-.contato{
+.contato {
 	background: #f2f2f2;
+	border-bottom: #d3a229 solid 5px;
 }
 
-.descricao-orcamento{
-	
-	
+.contato .row {
+	display: flex;
+	align-items: center;
 }
 
-.descricao-orcamento h3{
+.descricao-orcamento {
+	background: url(../img/telefone-orcamento.png)no-repeat center left;
+	padding: 20px 0 20px 114px;
+}
+
+.descricao-orcamento h3 {
 	font-size: 1.5rem;
 	color: #0e524c;
 }
 
-.descricao-orcamento p{
+.descricao-orcamento p {
 	color: #5c5c5c;
 	font-size: 16px;
 	text-align: justify;
-	
 }
 
-.telefone-contato{
-	
-
-	
-}
-.contato .telefone-contato p{
+.contato .telefone-contato p {
 	color: #d3a229;
-	font-size: 48px;
+	font-size: 3rem;
 	font-weight: 700;
-	
-	
+	float: right;
 }
 
-
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
+@media screen and (max-width: 768px) {
+	.contato .row {
+		display: block;
+		
+	}
+	
+	.contato .telefone-contato p{
+		text-align: center;
+		float: none;
+	}
 }

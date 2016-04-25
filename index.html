@@ -2,174 +2,239 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nome do cliente</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="estilo.css">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nome do cliente</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/carousel.css">
+	
+	<link rel="stylesheet" href="css/servicos-razoes.css">
+	<link rel="stylesheet" href="css/nossos-servicos.css">
+	<link rel="stylesheet" href="css/contato.css">
+	<link rel="stylesheet" href="css/footer.css">
+
+	<!--<link rel="stylesheet" href="estilo.css">-->
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
 
-<body>
-    <header id="header">
-        <div class="container">
-            <section>
-                <div class="row">
-                    <div class="col-md-2">
-                        <p class="telefone">34545443</p>
-                    </div>
-                    <div class="col-md-6 pull-right">
-                        <div class="login">
-                            <form action="" class="form-inline">
+<body class="home-page">
+	<div class="wrapper">
+		<header class="header">
+			<div class="top-bar navbar navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						<button class="navbar-toggle btn-theme" type="button" data-toggle="collapse" data-target="#navbar-top">
+							Login
+						</button>
+						<p class="telefone">34545443</p>
+					</div>
+					<div class="navbar-collapse collapse" id="navbar-top">
+						<form class="navbar-form navbar-right">
+							<div class="form-group">
+								<input type="text" class="form-control" name="usuario" placeholder="Usuário">
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control" name="senha" placeholder="Senha">
+							</div>
+							<button type="submit" class="btn btn-theme">Entrar</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<section class="header-main">
+				<div class="container">
+					<div class="navbar-header">
+						<button class="navbar-toggle btn-theme" type="button" data-toggle="collapse" data-target="#navbar-main">
+							Menu
+						</button>
+						<h1 class="logo"><a href="index.html" alt="Logo"><img src="img/LOGO-DO-CLIENTE.png"></a></h1>
+					</div>
+					<div class="navbar-collapse collapse" id="navbar-main">
+						<ul class="nav navbar-nav navbar-right">
+							<li role="presentation" class="active"><a href="#">Home</a></li>
+							<li role="presentation"><a href="#">Empresa</a></li>
+							<li role="presentation" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Serviços <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Item 1</a></li>
+									<li><a href="#">Item 2</a></li>
+									<li><a href="#">Item 3</a></li>
+								</ul>
+
+							</li>
+							<li role="presentation"><a href="#">Educação no trânsito</a></li>
+							<li role="presentation"><a href="#">Notícias</a></li>
+							<li role="presentation"><a href="#">Contrate</a></li>
+						</ul>
+					</div>
 
 
-                                <input class="form-control" type="text" placeholder="Usuário">
-
-                                </input>
-                                <input class="form-control" type="password" placeholder="Senha">
-
-                                </input>
-                                <button type="submit" class="btn btn-primary">Entrar</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+				</div>
+			</section>
 
 
-            </section>
-        </div>
-    </header>
-    <section class="navegacao">
-        <div class="container">
+		</header>
+		<main>
+			<div class="carousel">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/item1.png" alt="Banner 1">
+							<div class="carousel-caption">
+								<h3>Lorem ipsum dolor sit amet consectetur adipiscing elit</h3>
+    						<p>Accusantium doloremque laudantium totam rem aperiam, eaque ipsa</p>
+    						<button class="btn btn-theme">Saiba Mais</button>
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/item1.png" alt="Banner 2">
+							<div class="carousel-caption">
+								<h3>Lorem ipsum dolor sit amet consectetur adipiscing elit</h3>
+    						<p>Accusantium doloremque laudantium totam rem aperiam, eaque ipsa</p>
+    						<button class="btn btn-theme">Saiba Mais</button>
+							</div>
+						</div>
+						
+					</div>
+
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<i class="fa fa-angle-left" aria-hidden="true"></i>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<i class="fa fa-angle-right" aria-hidden="true"></i>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
 
 
-            <h1><img src="">Logo do Cliente</h1>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Empresas</li>
-                    <li>Serviços
-                        <ul>
-                            <li>Serviço 1</li>
-                            <li>Serviço 2</li>
-                            <li>Serviço 3</li>
-                        </ul>
-                    </li>
-                    <li>Educação no trânsito
-                        <ul>
-                            <li>Tópico 1</li>
-                            <li>Tópico 2</li>
-                            <li>Tópico 3</li>
-                        </ul>
-                    </li>
-                    <li>Notícias</li>
-                    <li>Contrate</li>
-                </ul>
-            </nav>
-        </div>
-    </section>
+			<div class="servicos-razoes">
+				<div class="container">
 
-    <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
+					<h2 class="text-center">Porque utilizar nossos serviços?</h2>
 
 
+					<div class="row">
+						<div class="motivo agilidade col-md-4">
+							<h3>Agilidade</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+						</div>
+						<div class="motivo frota col-md-4">
+							<h3>Frota em dia</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+						</div>
+						<div class="motivo acidentes col-md-4">
+							<h3>Evitar acidentes</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="motivo seguranca col-md-4">
+							<h3>Seguranca</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+						<div class="motivo responsabilidade col-md-4">
+							<h3>Resp. Social</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+						</div>
+						<div class="motivo lucratividade col-md-4">
+							<h3>Lucratividade</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="nossos-servicos">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<section>
+								<div class="text-center">
 
 
-                    <section class="slide">
-                        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
-                        <p>Provident labore ullam aliquid ut non in cupiditate eum ab natus minus.</p>
-                        <button>Saiba mais</button>
+									<h2>Nossos Serviços</h2>
+									<div class="descricao center-block">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh turpis, semper ut quam eu, auctor gravida purus. Quisque arcu velit, euismod ac urna quis, egestas</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-3">
+										<div class="panel ">
+											<h4 class="vistoria">Vistoria</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="panel">
+											<h4 class="tecnica">Consultoria Técnica</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="panel">
+											<h4 class="corretiva">Consultoria Corretiva</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="panel">
+											<h4 class="educador">Motorista Educador</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+										</div>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contato">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9 col-lg-9">
 
-                    </section>
-                    <section class="servicos-razoes">
-                        <h2>Porque utilizar nossos serviços?</h2>
-                        <div class="motivo">
-                            <h3>Agilidade</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                        <div class="motivo">
-                            <h3>Frota em dia</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                        <div class="motivo">
-                            <h3>Evitar acidentes</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                        <div class="motivo">
-                            <h3>Seguranca</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                        <div class="motivo">
-                            <h3>Resp. Social</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                        <div class="motivo">
-                            <h3>Lucratividade</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-
-                    </section>
-                    <section>
-                        <h2>Nossos Serviços</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eum hic modi nam quaerat obcaecati laboriosam. Vero enim, vitae harum perspiciatis, alias voluptatum quos adipisci quaerat praesentium animi inventore quibusdam.</p>
-                        <div class="card">
-                            <h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			</h4>
-                        </div>
-                        <div class="card">
-                            <h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			</h4>
-                        </div>
-                        <div class="card">
-                            <h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			</h4>
-                        </div>
-                        <div class="card">
-                            <h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			</h4>
-                        </div>
-                    </section>
-                    <section class="contato">
-                        <div class="descricao-orcamento">
-                            <h3>Tem alguma dúvida ou precisa de um orçamento?</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum odit illo in, beatae delectus fugit ea impedit illum corporis vero alias quis, porro aperiam quod soluta. Itaque incidunt ipsa, eius?</p>
-                            <p>34563466</p>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </div>
-    </main>
-    <footer id="footer">
-        <div class="container">
+							<div class="descricao-orcamento">
+								<h3>Tem alguma dúvida ou precisa de um orçamento?</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh turpis, semper ut quam eu, auctor gravida purus. Quisque arcu velit, euismod ac urna quis, egestas</p>
+							</div>
+						</div>
+						<div class="telefone-contato pull-right col-xs-12 col-sm-12 col-md-3 col-lg-3">
+							<p>3456 3466</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container">
 
 
-            <p>Lorem Ipsum Copyright &copy;</p>
-            <nav>
-                <ul>
-                    <li>Empresa</li>
-                    <li>Serviços</li>
-                    <li>Educação</li>
-                    <li>Notícias</li>
-                    <li>Contrato</li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
-    <script src="javascript/bootstrap.min.js"></script>
-    <script src="javascript/jquery-1.12.3.min.js"></script>
+				<p class="copyright">Lorem Ipsum Copyright &copy;2016</p>
+				<a href="index.html"><img src="img/LOGO-DO-CLIENTE.png" class="logo pull-right" alt=""></a>
+
+
+			</div>
+		</footer>
+
+	</div>
+	<!-- /.wrapper-->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="javascript/bootstrap.min.js"></script>
 </body>
 
 </html>

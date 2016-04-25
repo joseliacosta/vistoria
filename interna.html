@@ -1,122 +1,214 @@
-<!DOCTYPE html>
+<!DOCTYPE htmml>
+
 <html>
-	<head>
+
+<head>
 	<meta charset="utf-8">
-		<title>Área Interna - Empresa LI</title>
-	</head>
-	<body>
-		<header>
-			<section>
-				<p>34545443</p>
-				<div class="login">
-					<input type="text" placeholder="Usuário">
-					
-					</input>
-					<input type="password" placeholder="Senha">
-					
-					</input>
-					<button>Entrar</button>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Página Interna</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/componentes.css">
+
+
+
+	<link rel="stylesheet" href="css/contato.css">
+	<link rel="stylesheet" href="css/footer.css">
+
+	<!--<link rel="stylesheet" href="estilo.css">-->
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="home-page">
+
+	<div class="wrapper">
+		<header class="header">
+			<div class="top-bar navbar navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						<button class="navbar-toggle btn-theme" type="button" data-toggle="collapse" data-target="#navbar-top">
+							Login
+						</button>
+						<p class="telefone">34545443</p>
+					</div>
+					<div class="navbar-collapse collapse" id="navbar-top">
+						<form class="navbar-form navbar-right">
+							<div class="form-group">
+								<input type="text" class="form-control" name="usuario" placeholder="Usuário">
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control" name="senha" placeholder="Senha">
+							</div>
+							<button type="submit" class="btn btn-theme">Entrar</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<section class="header-main">
+				<div class="container">
+					<div class="navbar-header">
+						<button class="navbar-toggle btn-theme" type="button" data-toggle="collapse" data-target="#navbar-main">
+							Menu
+						</button>
+						<h1 class="logo"><a href="index.html" alt="Logo"><img src="img/LOGO-DO-CLIENTE.png"></a></h1>
+					</div>
+					<div class="navbar-collapse collapse" id="navbar-main">
+						<ul class="nav navbar-nav navbar-right">
+							<li role="presentation" class="active"><a href="#">Home</a></li>
+							<li role="presentation"><a href="#">Empresa</a></li>
+							<li role="presentation" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Serviços <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Item 1</a></li>
+									<li><a href="#">Item 2</a></li>
+									<li><a href="#">Item 3</a></li>
+								</ul>
+
+							</li>
+							<li role="presentation"><a href="#">Educação no trânsito</a></li>
+							<li role="presentation"><a href="#">Notícias</a></li>
+							<li role="presentation"><a href="#">Contrate</a></li>
+						</ul>
+					</div>
+
+
 				</div>
 			</section>
-			<section>
-				<h1><img src="">Logo do Cliente</h1>
-				<nav>
-					<ul>
-						<li>Home</li>
-						<li>Empresas</li>
-						<li>Serviços
-							<ul>
-								<li>Serviço 1</li>
-								<li>Serviço 2</li>
-								<li>Serviço 3</li>
-							</ul>
-						</li>
-						<li>Educação no trânsito
-							<ul>
-								<li>Tópico 1</li>
-								<li>Tópico 2</li>
-								<li>Tópico 3</li>
-							</ul>
-						</li>
-						<li>Notícias</li>
-						<li>Contrate</li>
-					</ul>
-				</nav>
-			</section>
+
+
 		</header>
 		<main>
-		<h2 class="titulo-interno">Título da página</h2>
-		<aside>
-			<nav>
-				<ul>
-					<li>Item do menu</li>
-					<li>Item do menu</li>
-					<li>Item do menu</li>
-					<li>Item do menu</li>
-					<li>Item do menu</li>
-					<li>Item do menu</li>
-					<li>Item do menu</li>
-					<li>Item do menu</li>
-					<li>Item do menu</li>
-					<li>Item do menu</li>
-				</ul>
-			</nav>
-			
-		</aside>
-		<section class="formulario">
-			<form action="">
-				<div>
-					<label for="">Nome do input</label><input type="text">
+			<div class="componentes">
+				<h2 class="text-center">Título da página</h2>
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<ul class="list-group">
+								<li class="list-group-item">
+									<a href="">Item de Menu</a>
+								</li>
+								<li class="list-group-item">
+									<a href="">Item de Menu</a>
+								</li>
+								<li class="list-group-item">
+									<a href="">Item de Menu</a>
+								</li>
+								<li class="list-group-item">
+									<a href="">Item de Menu</a>
+								</li>
+								<li class="list-group-item">
+									<a href="">Item de Menu</a>
+								</li>
+								<li class="list-group-item">
+									<a href="">Item de Menu</a>
+								</li>
+								<li class="list-group-item">
+									<a href="">Item de Menu</a>
+								</li>
+								<li class="list-group-item">
+									<a href="">Item de Menu</a>
+								</li>
+								<li class="list-group-item">
+									<a href="">Item de Menu</a>
+								</li>
+								<li class="list-group-item">
+									<a href="">Item de Menu</a>
+								</li>
+
+
+							</ul>
+						</div>
+						<div class="col-md-9">
+							<div class="row">
+								<div class="col-md-12">
+									<form>
+										<div class="form-group">
+											<label for="exampleInputEmail1">Email address</label>
+											<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+										</div>
+										<div class="form-group">
+											<label for="exampleInputPassword1">Password</label>
+											<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+										</div>
+										<div class="form-group">
+											<label for="exampleInputFile">File input</label>
+											<input type="file" id="exampleInputFile">
+											<p class="help-block">Exemplo de texto de ajuda para explicar o funcionamento do componente, caso necessário.</p>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox"> Checkbox
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio"> RadioButton
+											</label>
+										</div>
+										<button type="submit" class="btn btn-default">Salvar</button>
+									</form>
+
+								</div>
+							</div>
+						</div>
+
+
+
+					</div>
+
+
+
+
+
 				</div>
-				<div>
-					<label for="">Nome do input</label><input type="text">
-				</div>
-				<div>
-					<label for="">Nome do input</label><input type="text">
-				</div>
-				<div>
-					<label for="">Nome do input</label><input type="text">
-				</div>
-				<div>
-					<label for="">Nome do input</label><input type="text">
-				</div>
-				<div>
-					<label for="">Nome do input</label><input type="text">
-				</div>
-				<div>
-					<label for="">Nome do input</label><input type="text">
-				</div>
-				<div>
-					<label for="">Nome do input</label><input type="text">
-				</div>
-				<div>
-					<label for="">Nome do input</label><input type="text">
-				</div>
-				<div>
-					<label for="">Nome do input</label><input type="text">
-				</div>
-				<button>Salvar</button>
-			</form>
-		</section>
-		<section class="contato">
-			<div class="descricao-orcamento">
-				<h3>Tem alguma dúvida ou precisa de um orçamento?</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum odit illo in, beatae delectus fugit ea impedit illum corporis vero alias quis, porro aperiam quod soluta. Itaque incidunt ipsa, eius?</p>
-				<p>34563466</p>
+
 			</div>
-		</section>
+
+
+			<div class="contato">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9 col-lg-9">
+
+							<div class="descricao-orcamento">
+								<h3>Tem alguma dúvida ou precisa de um orçamento?</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh turpis, semper ut quam eu, auctor gravida purus. Quisque arcu velit, euismod ac urna quis, egestas</p>
+							</div>
+						</div>
+						<div class="telefone-contato pull-right col-xs-12 col-sm-12 col-md-3 col-lg-3">
+							<p>3456 3466</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</main>
-		<footer>
-			<p>Lorem Ipsum Copyright &copy;</p>
-			<nav>
-				<ul>
-					<li>Empresa</li>
-					<li>Serviços</li>
-					<li>Educação</li>
-					<li>Notícias</li>
-					<li>Contrato</li>
-				</ul>
-			</nav>
+		<footer class="footer">
+			<div class="container">
+
+
+				<p class="copyright">Lorem Ipsum Copyright &copy;2016</p>
+				<a href="index.html"><img src="img/LOGO-DO-CLIENTE.png" class="logo pull-right" alt=""></a>
+
+
+
+			</div>
 		</footer>
-	</body>
+
+
+
+
+	</div>
+
+
+</body>
+
 </html>
