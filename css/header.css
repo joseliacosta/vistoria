@@ -7,7 +7,8 @@
 }
 
 @media(max-width: 768px){
-	.telefone{
+	.telefone,
+	.logo{
 		margin-left: 15px;
 	}
 }
@@ -87,6 +88,44 @@
 	margin-top: 0;
 	margin-bottom: 0;
 }
+
+.header-main nav{
+	display: inline-block;
+}
+.header-main .nav a{
+	color: #ffffff;
+}
+
+@media (min-width: 768px){
+	
+	.navbar-nav>li>a {
+			padding-top: 10px;
+			padding-bottom: 10px;
+	}
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #153A35;
+	border-radius: 4px;
+	
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #153A35;
+    border-color: #153A35;
+}
+
+.dropdown-menu{
+	background:#153a35;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #0E524C;
+    text-decoration: none;
+    background-color: #D3A229;
+}
+
 
 
 .header .form-control {

@@ -29,12 +29,12 @@
 			<div class="top-bar navbar navbar-default">
 				<div class="container">
 					<div class="navbar-header">
-						<button class="navbar-toggle btn-theme" type="button" data-toggle="collapse" data-target="#navbar-main">
+						<button class="navbar-toggle btn-theme" type="button" data-toggle="collapse" data-target="#navbar-top">
 							Login
 						</button>
 						<p class="telefone">34545443</p>
 					</div>
-					<div class="navbar-collapse collapse" id="navbar-main">
+					<div class="navbar-collapse collapse" id="navbar-top">
 						<form class="navbar-form navbar-right">
 							<div class="form-group">
 								<input type="text" class="form-control" name="usuario" placeholder="Usuário">
@@ -49,10 +49,35 @@
 			</div>
 			<section class="header-main">
 				<div class="container">
-					<h1 class="logo"><a href="index.html" alt="Logo"><img src="img/LOGO-DO-CLIENTE.png"></a></h1>
+					<div class="navbar-header">
+						<button class="navbar-toggle btn-theme" type="button" data-toggle="collapse" data-target="#navbar-main">
+							Menu
+						</button>
+						<h1 class="logo"><a href="index.html" alt="Logo"><img src="img/LOGO-DO-CLIENTE.png"></a></h1>
+					</div>
+					<div class="navbar-collapse collapse" id="navbar-main">
+						<ul class="nav navbar-nav navbar-right">
+							<li role="presentation" class="active"><a href="#">Home</a></li>
+							<li role="presentation"><a href="#">Empresa</a></li>
+							<li role="presentation" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Serviços <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Item 1</a></li>
+									<li><a href="#">Item 2</a></li>
+									<li><a href="#">Item 3</a></li>
+								</ul>
+
+							</li>
+							<li role="presentation"><a href="#">Educação no trânsito</a></li>
+							<li role="presentation"><a href="#">Notícias</a></li>
+							<li role="presentation"><a href="#">Contrate</a></li>
+						</ul>
+					</div>
+
 
 				</div>
 			</section>
+
+
 		</header>
 		<main>
 			<div class="servicos-razoes">
