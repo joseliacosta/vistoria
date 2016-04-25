@@ -1,3 +1,17 @@
+
+@media screen and(max-width: 768px){
+	.motivo{
+		margin: 33px 15px !important;
+		background-position: center;
+	}
+/*
+	.motivo h3{
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+*/
+}
+
 .servicos-razoes{
 	background: #f2f2f2;
 	padding: 75px 0;
@@ -9,7 +23,8 @@
 }
 .motivo{
 	min-height: 109px;
-	padding-left: 136px;
+	padding: 10px 0 20px 136px;
+	
 	margin: 33px 0;
 }
 
@@ -39,6 +54,7 @@
 .motivo h3{
 	font-size: 18px;
 	color: #0e524c;
+	margin-top: 0;
 }
 
 .motivo p{
