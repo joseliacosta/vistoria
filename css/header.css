@@ -75,8 +75,9 @@
 	background: #0e524c;
 }
 
-.header .header-main {
-	padding: 30px 0;
+.header .header-main .nav{
+	padding: 20px 0;
+	
 }
 
 .header-main h1 {
@@ -99,15 +100,15 @@
 @media (min-width: 768px){
 	
 	.navbar-nav>li>a {
-			padding-top: 10px;
-			padding-bottom: 10px;
+			padding-top: 5px;
+			padding-bottom: 5px;
 	}
 }
 
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
     background-color: #153A35;
-	border-radius: 4px;
+		border-radius: 4px;
 	
 }
 

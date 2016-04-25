@@ -23,26 +23,6 @@ body {
   /* equal to footer height */
 }
 
-/*Revisar depois de terminar o site*/
-/*
-.wrapper:after {
-  content: "";
-  display: block;
-  height: 344px;
- 
-}
- /*must be the same height as footer */
-
-/*
-.footer {
-  height: 344px;
-
-}
-*/
-/*   must be the same height as footer */
-
-
-
 h1,
 h2,
 h3,
@@ -112,4 +92,7 @@ a:focus {
 
 .logo{
 	display: inline-block;
+	padding: 14px 0;
+	
+	
 }
