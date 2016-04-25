@@ -26,21 +26,27 @@
 <body class="home-page">
 	<div class="wrapper">
 		<header class="header">
-			<div class="top-bar">
+			<div class="top-bar navbar navbar-default">
 				<div class="container">
-					<p class="telefone ">34545443</p>
-					<form action="" class="pull-right login-form form-inline">
-						<div class="form-group">
-							<input class="form-control" type="text" placeholder="Usuário">
-							</input>
-							<input class="form-control" type="password" placeholder="Senha">
-							</input>
-						</div>
-						<button type="submit" class="btn btn-theme">Entrar</button>
-					</form>
+					<div class="navbar-header">
+						<button class="navbar-toggle btn-theme" type="button" data-toggle="collapse" data-target="#navbar-main">
+							Login
+						</button>
+						<p class="telefone">34545443</p>
+					</div>
+					<div class="navbar-collapse collapse" id="navbar-main">
+						<form class="navbar-form navbar-right">
+							<div class="form-group">
+								<input type="text" class="form-control" name="usuario" placeholder="Usuário">
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control" name="senha" placeholder="Senha">
+							</div>
+							<button type="submit" class="btn btn-theme">Entrar</button>
+						</form>
+					</div>
 				</div>
 			</div>
-
 			<section class="header-main">
 				<div class="container">
 					<h1 class="logo"><a href="index.html" alt="Logo"><img src="img/LOGO-DO-CLIENTE.png"></a></h1>
@@ -51,42 +57,41 @@
 		<main>
 			<div class="servicos-razoes">
 				<div class="container">
-					<section>
-						<h2 class="text-center">Porque utilizar nossos serviços?</h2>
-						<div class="row">
+
+					<h2 class="text-center">Porque utilizar nossos serviços?</h2>
 
 
-							<div class="motivo agilidade col-md-4">
-								<h3>Agilidade</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-							</div>
-							<div class="motivo frota col-md-4">
-								<h3>Frota em dia</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-							</div>
-							<div class="motivo acidentes col-md-4">
-								<h3>Evitar acidentes</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-							</div>
+					<div class="row">
+						<div class="motivo agilidade col-md-4">
+							<h3>Agilidade</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
 						</div>
-						<div class="row">
-							<div class="motivo seguranca col-md-4">
-								<h3>Seguranca</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							</div>
-							<div class="motivo responsabilidade col-md-4">
-								<h3>Resp. Social</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-							</div>
-							<div class="motivo lucratividade col-md-4">
-								<h3>Lucratividade</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-							</div>
+						<div class="motivo frota col-md-4">
+							<h3>Frota em dia</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
 						</div>
-
-					</section>
+						<div class="motivo acidentes col-md-4">
+							<h3>Evitar acidentes</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="motivo seguranca col-md-4">
+							<h3>Seguranca</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+						<div class="motivo responsabilidade col-md-4">
+							<h3>Resp. Social</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+						</div>
+						<div class="motivo lucratividade col-md-4">
+							<h3>Lucratividade</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+						</div>
+					</div>
 				</div>
 			</div>
+
 			<div class="nossos-servicos">
 				<div class="container">
 					<div class="row">
@@ -140,21 +145,12 @@
 								<h3>Tem alguma dúvida ou precisa de um orçamento?</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh turpis, semper ut quam eu, auctor gravida purus. Quisque arcu velit, euismod ac urna quis, egestas</p>
 							</div>
-
 						</div>
-
 						<div class="telefone-contato col-md-12">
-							
-								<p>3456 3466</p>
-							
+							<p>3456 3466</p>
 						</div>
-
 					</div>
-
-
-
 				</div>
-
 			</div>
 		</main>
 		<footer class="footer">
@@ -163,7 +159,7 @@
 
 				<p class="copyright">Lorem Ipsum Copyright &copy;2016</p>
 				<a href="index.html"><img src="img/LOGO-DO-CLIENTE.png" class="logo pull-right" alt=""></a>
-				
+
 
 			</div>
 		</footer>
