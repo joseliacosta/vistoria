@@ -1,0 +1,80 @@
+.componentes h2 {
+	background: #e2e1e1;
+	color: #0e524c;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: 400;
+	padding: 30px 0;
+	margin: 0;
+}
+
+.componentes .container {
+	padding: 20px 0;
+}
+
+.componentes .list-group .list-group-item {
+	color: #0e524c;
+	font-size: 1rem;
+	font-weight: 700;
+	background-color: #f3f3f3;
+}
+
+label {
+	font-size: 1.125rem;
+	color: #757777;
+	font-weight: 400;
+}
+
+.form-control {
+	border: 1px solid #718a88;
+	border-radius: 3px;
+}
+
+.form-control:focus {
+	border-color: #0E524C;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(14, 82, 76, 0.52);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(14, 82, 76, 0.49);
+}
+
+.btn-default {
+	background-color: #153a35;
+	border: none;
+	color: #ffffff;
+	float: right;
+}
+
+
+
+
+.btn-default:focus,
+.btn-default.focus {
+	color: #fff;
+	background-color: #0F6159;
+	border-color: #0F6159;
+}
+
+.btn-default:hover {
+	color: #fff;
+	background-color: #0F6159;
+	border-color: #0F6159;
+}
+
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+	color: #fff;
+	background-color: #0F6159;
+	border-color: #0F6159;
+}
+
+.btn-default:active:hover,
+.btn-default.active:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.btn-default:active.focus,
+.btn-default.active.focus {
+	color: #fff;
+	background-color: #0F6159;
+	border-color: #0F6159;
+}
