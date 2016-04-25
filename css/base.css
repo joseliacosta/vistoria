@@ -109,3 +109,7 @@ a:focus {
   -moz-opacity: 1;
   opacity: 1;
 }
+
+.logo{
+	display: inline-block;
+}
