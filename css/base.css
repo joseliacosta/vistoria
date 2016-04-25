@@ -50,20 +50,7 @@ a:hover {
 a:focus {
   text-decoration: none;
 }
-.btn {
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-	border-radius: 3px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
+
 
 .btn-theme {
 	background: #d3a229;
@@ -75,20 +62,7 @@ a:focus {
 	border: 1px solid #e9cb82;
 }
 
-.carousel-fade .item {
-  -webkit-opacity: 0;
-  -moz-opacity: 0;
-  opacity: 0;
-  -webkit-transition: opacity 0.3s;
-  -moz-transition: opacity 0.3s;
-  -ms-transition: opacity 0.3s;
-  -o-transition: opacity 0.3s;
-}
-.carousel-fade .item.active {
-  -webkit-opacity: 1;
-  -moz-opacity: 1;
-  opacity: 1;
-}
+
 
 .logo{
 	display: inline-block;
