@@ -1,26 +1,42 @@
 @media screen and (min-width: 768px) {
 	.carousel-caption {
-		right: 20%;
-		left: 40%;
-		top: 20%;
-		padding-bottom: 30px;
+		right: 5%;
+		left: 30%;
+		top: 15%;
+		padding-bottom: 50px;
 	}
 }
+
+
 .carousel-caption{
+	position: absolute;
+	height: auto;
 	text-align: left;
 }
-.carousel h3 {
+.carousel-caption h3 {
 	font-size: 2.25rem;
 }
 
-.carousel p{
+.carousel-caption p{
 	color: #ffffff;
 	font-size: 1.125rem;
 	font-weight: 700;
-	padding: 20px 0;
+	padding: 0.5rem 0;
 }
 
-.carousel-control span{
+.carousel-control i{
+	position: absolute;
+	top:50%;
+	color: #0e524c;
+	padding: 10px 15px;
 	background-color: #d3a229;
+	color: #0e524c;
 	border-radius: 3px;
+}
+
+.left i{
+	left: 10%;
+}
+.right i{
+	right: 10%;
 }
