@@ -13,7 +13,7 @@ $(document).ready(function(){
 			$("div#collapse1").addClass("in");
 			$("div#collapse1").removeClass("collapse");
 		}
-	}
+	});
 //  if(window.screen.width< 1025){ $('#collapse1').removeClass('in'); }
 
 });
